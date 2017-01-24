@@ -12,6 +12,14 @@ h4{
 	text-align:center;
 }
 
+iframe{
+	width: 1190px;
+	height: 850px;
+	border: none;
+	display: block;
+	margin: auto;
+}
+
 #background{
 	display: block;
 	margin: auto;
@@ -66,20 +74,20 @@ h4{
 
 #clockhand1{
 	position: absolute;
-	top: 43.8%;
-	left: 49%;
-	width: 0.8%;
+	top: 42.8%;
+	left: 48.9%;
+	height: 19%;
 	z-index: 4;
 	visibility: hidden;
-	-webkit-transition: transform 1s; /* Safari */
-    transition: transform 1s;
+	-webkit-transition: transform 5s;
+	transition: transform 5s;
 }
 
 #lamp1{
 	position: absolute;
 	top: 31%;
 	left: 41%;
-	opacity: 0.4;
+	opacity: 0.2;
 	visibility: hidden;
 }
 
@@ -107,34 +115,37 @@ h4{
 	visibility: hidden;
 }
 
+
+/*======================================================*/
+
 #shelf1{
 	position: absolute;
-	top: 22%;
+	top: 26%;
 	left: 19%;
 	width: 62%;
 }
 
 #instruction_box{
 	position: absolute;
-	top: 88%;
+	top: 84%;
 	left: 19%;
 	width: 62%;
 }
 
 #instruction{
 	position: absolute;
-	top: 88%;
+	top: 86%;
 	left: 21%;
-	font-size: 100%;
+	font-size: 80%;
 	color: yellow;
 	max-width: 55%;
-	max-height: 10%;
+	max-height: 7%;
 	overflow: auto;
 }
 
 #sample_number{
 	position: absolute;
-	top: 4%;
+	top: 13%;
 	left: 27%;
 	color: white;
 	font-size: 110%;
@@ -154,7 +165,7 @@ h4{
 
 #pipette{
 	position: absolute;
-	top: 8.5%;
+	top: 13.5%;
 	left: 55%;
 }
 
@@ -166,7 +177,7 @@ h4{
 
 #ascorbic_acid{
 	position: absolute;
-	top: 37%;
+	top: 38.5%;
 	left: 76%;
 }
 
@@ -195,28 +206,28 @@ h4{
 
 #clockface2{
 	position: absolute;
-	top: -1%;
+	top: 6%;
 	left: 18.5%;
 	width: 63%;
 	z-index: 3;
 	visibility: hidden;
-	height: 100%;
+	height: 89%;
 }
 
 #clockhand2{
 	position: absolute;
-	top: 37.4%;
-	left: 50.6%;
-	width: 0.8%;
+	top: 38.5%;
+	left: 50.4%;
+	width: 1.3%;
 	z-index: 4;
 	visibility: hidden;
-	-webkit-transition: transform 1s;
-	transition: transform 1s;
+	-webkit-transition: transform 10s;
+	transition: transform 10s;
 }
 
 #grey_solution{
 	position: absolute;
-	top: 17.4%;
+	top: 21.4%;
 	left: 41.6%;
 	width: 2%;
 }
@@ -245,7 +256,7 @@ h4{
 	visibility: hidden;
 }
 
-#ref_cuvette{
+#ref_cuvette1, #ref_cuvette2{
 	position: absolute;
 	top: 48%;
 	left: 49%;
@@ -254,31 +265,31 @@ h4{
 	visibility: hidden;
 }
 
-#graph1{
+#graph1, #graph2{
 	position: absolute;
-	top: 10%;
+	top: 25%;
 	left: 20%;
 	width: 60%;
 	z-index: 4;
-	height: 78%;
+	height: 59%;
 	visibility: hidden;
 }
 
 #scan_btn{
 	position: absolute;
-	top: 63%;
+	top: 65%;
 	left: 30.2%;
 	width: 6.5%;
-	height: 6%;
+	height: 5%;
 	z-index: 5;
 }
 
 #close_btn{
 	position: absolute;
-	top: 81%;
+	top: 79%;
 	left: 73.2%;
 	width: 6.5%;
-	height: 6%;
+	height: 5%;
 	z-index: 6;
 }
 
